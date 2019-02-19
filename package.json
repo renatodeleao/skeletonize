@@ -1,0 +1,22 @@
+{
+  "name": "skeletonize",
+  "version": "0.1.0",
+  "main": "index.js",
+  "browser": "skeletonize.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:renatodeleao/skeletonize.git"
+  },
+  "author": "Renato de Leão <renatodeleao@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx babel index.js --out-file skeletonize.umd.js --presets=@babel/preset-env --plugins=@babel/plugin-proposal-class-properties,@babel/plugin-transform-classes"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-transform-classes": "^7.3.3",
+    "@babel/preset-env": "^7.3.1"
+  }
+}
