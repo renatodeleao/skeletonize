@@ -2,7 +2,7 @@
 * Skeletonize.js
 * Dynamic skeleton loaders with minimal effort
 */
-class Skeletonize {
+export default class Skeletonize {
   constructor(node, options) {
     this.node = node;
     this.skeletonEls = [];
